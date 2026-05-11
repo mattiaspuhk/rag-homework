@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# uv
+uv.lock.local
+
+# Build / dist
+build/
+dist/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+
+# Generated artifacts (regenerable)
+# Note: data/raw/ PDFs ARE committed (reviewer should be able to run offline).
+# Note: data/output/results.json IS committed as the canonical artifact example.
+*.tmp
