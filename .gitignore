@@ -33,6 +33,8 @@ Thumbs.db
 .vscode/
 
 # Generated artifacts (regenerable)
-# Note: data/raw/ PDFs ARE committed (reviewer should be able to run offline).
+# Note: data/pdfs/ PDFs ARE committed (reviewer should be able to run offline).
 # Note: data/output/results.json IS committed as the canonical artifact example.
+# The FAISS index is regenerable from the PDFs, so we don't commit it.
+data/index/
 *.tmp

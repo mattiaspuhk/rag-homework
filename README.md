@@ -54,7 +54,7 @@ uv run streamlit run app/streamlit_app.py
 - Eesti Energia Annual Report 2025 (English) — `eesti-energia-2025-final-en.pdf`
 - Eesti Energia SPO Use of Proceeds — `Eesti-SPO-UoP.pdf`
 
-PDFs are committed to `data/raw/` so the project runs offline after `uv sync`.
+PDFs are committed to `data/pdfs/` so the project runs offline after `uv sync`. The FAISS index is built on first run and cached under `data/index/`; delete that directory to force a rebuild.
 
 ## Model choice
 
